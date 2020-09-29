@@ -1,12 +1,7 @@
 const moment = require('moment');
 const puppeteer = require('puppeteer');
 const xlsx = require('xlsx');
-
-const login = {
-  username: '',
-  password: '',
-  token: ''
-}
+const login = require('./login');
 
 const inputLogin = '#login_field';
 const inputPassword = '#password';
